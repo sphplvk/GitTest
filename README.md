@@ -31,7 +31,7 @@ List<Boolean?>；
 ##生成代码示例：
 test.idl文件内容如下：w
 
-- 生成cpp文件命令：./GenerateIDL.exe  -cpp test.idl
+1. **生成cpp文件命令：./GenerateIDL.exe  -cpp test.idl**
 
 <pre>
 <code>
