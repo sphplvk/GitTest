@@ -8,6 +8,29 @@
 - 安装完成后，打开Cygwin命令行进入到项目根目录，输入make编译。
 - 编译完成后会生成GenerateIDL.exe --help
 
+##IDL语法
+支持以下数据类型
+Byte
+Int8;
+Int16
+Int32
+Int64;
+Double;
+Boolean;
+Int8?;
+Int16？;
+Int32？；
+Int64?;
+String;
+List<String>;
+List<Int8?>;
+List<Int32?>;
+List<Int64?>;
+List<Double?>;
+List<Boolean?>；
+##生成代码示例：
+test.idl文件内容如下：
+
 
 <pre>
 <code>
