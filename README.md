@@ -8,8 +8,7 @@
 - 安装完成后，打开Cygwin命令行进入到项目根目录，输入make编译。
 - 编译完成后会生成GenerateIDL.exe --help
 
-<pre>
-<code>
+<pre><code>
 #ifndef __TEST_H__
 #define __TEST_H__
 
@@ -512,5 +511,4 @@ namespace NA
     STATIC AXP::Boolean _NA_CList_ = AXP::Libc::Common::ClassLoader::RegisterClassCreator(L"NA.CList", NA::CList::Create);
 }
 #endif // __TEST_H__
-</code>
-</pre>
+</code></pre>
