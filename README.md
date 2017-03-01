@@ -30,31 +30,7 @@ List<Double?>;
 List<Boolean?>；
 ##生成代码示例：
 test.idl文件内容如下：
-<pre>
-namespace NA
-{
-    class CBase
-    {
-        Byte mB;
-    }
-    
-    class CList : CBase
-    {
-        Int8 a;
-        Int16 b;
-        Int64 c;
-        Double e;
-        Boolean bee;
-        Int8? f;
-        Int64? g;
-        String m;
-        List<String> lstring;
-        List<Int64?> list64;
-        List<Double?> listDouble;
-    }
-        
-}
-</pre>
+
 1. **生成cpp文件命令：./GenerateIDL.exe  -cpp test.idl**
 <pre><code>
 #ifndef __TEST_H__
