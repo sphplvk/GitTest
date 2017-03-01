@@ -1,7 +1,7 @@
 # GitTest
 test git
-<pre>
-<code>
+1. **生成cpp文件命令：./GenerateIDL.exe  -cpp test.idl**
+<pre><code>
 #ifndef __TEST_H__
 #define __TEST_H__
 
@@ -504,5 +504,4 @@ namespace NA
     STATIC AXP::Boolean _NA_CList_ = AXP::Libc::Common::ClassLoader::RegisterClassCreator(L"NA.CList", NA::CList::Create);
 }
 #endif // __TEST_H__
-</code>
-</pre>
+</code></pre>
